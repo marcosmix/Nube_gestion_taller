@@ -1,0 +1,64 @@
+table{
+    
+    margin-left: 70px;
+    border-collapse: collapse;
+    
+    width: 90%;
+}
+
+th,td{
+    padding: 13px;
+}
+thead{
+    background-color: rgb(46, 42, 42);
+}
+
+
+
+
+button {
+    font-size: medium;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 16px;
+  }
+
+  .cv{
+      background-color: rgb(24, 36, 24);
+  }
+  .ce{
+      background-color: rgb(231, 166, 25);
+  }
+
+  .cb{
+      background-color: rgb(228, 12, 23);
+  }
+
+
+.cg{
+    color: rgb(0, 0, 0);
+    background-color: rgb(98, 158, 98);
+}
+
+.cc{
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 44, 44) ;
+}
+
+.botons{
+    
+   margin: 5px;
+}
+
+.tablee{
+
+    margin-left: 1px;
+}
+
+.text{
+    align-items: left;
+}

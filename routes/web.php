@@ -1,4 +1,8 @@
+
 <?php
+use Illuminate\Support\Facades\Route;  /* Agregar en caso de salir error de Intelephense 
+muestra error innecesario en clase route como no definida*/
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,3 +16,14 @@
 */
 
 Route::get('/','indexController@getIndex');
+
+/*************************************************************/
+Route::get('clientes','clientesController@indexCliente');
+/* Creamos una Ruta en donde en el primer parametro contiene el nombre de
+la ruta que seria clientes, luego en el segundo parametro contiene un
+controlador llamado clientesController que va apuntar mediante arroba @ al 
+metodo llamado listadoCliente. (ambos parametros deben envolverse con comilla simples) */
+
+ 
+Route::get('infocliente','infoClienteController@infoCliente');
+Route::get('editarcliente','editarClienteController@editarCliente');
