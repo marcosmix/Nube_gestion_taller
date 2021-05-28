@@ -1,0 +1,52 @@
+.navbar
+{
+	width:16%; 
+	background-color: var(--color3);
+	
+}
+
+.brand-navbar
+{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   padding: 10% 5%;	
+}
+
+.brand-navbar__logo
+{
+	width: 70%;
+}
+
+.brand-navbar__ancla
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu__navbar
+{
+  padding:0;
+}
+
+.menu__item
+{
+	padding:6px 0;
+	padding-left:25px;
+	width: 80%;
+	margin: 25px 0;
+	background-color:var(--color1);	
+}
+
+.menu__item:hover
+{
+	color:var(--color2) ;
+	width: 100%;
+}
+
+.menu__item--selecto
+{
+	width: 100%;
+}
+

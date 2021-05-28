@@ -1,0 +1,29 @@
+.body_app
+{
+	display: flex;
+	flex-direction:columns;
+	
+	background-color:var(--color1);
+	
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.titular
+{
+	margin: 38px 50%;
+    font-size: var(--tamaño-fuente-1);
+}
+
+.section
+{
+	height: 100%;
+	width: 100%;
+}
+
+.section-parrafo
+{
+	text-align: center;
+	margin:50px 20%;
+}
