@@ -8,7 +8,7 @@
 	<div class="menu">
 		<ul class="menu__navbar">
 			
-				<a href="/">
+				<a href="/clientes">
 			<li class="menu__item">
 					CLIENTES
 			</li>
