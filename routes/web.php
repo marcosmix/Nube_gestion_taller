@@ -12,3 +12,8 @@
 */
 
 Route::get('/','indexController@getIndex');
+
+
+//Route::get('/programadores','developers.programadores');
+
+Route::get('programadores', 'ProgamadoresController@getDevelopers');
