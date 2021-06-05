@@ -1,4 +1,8 @@
+
 <?php
+use Illuminate\Support\Facades\Route;  /* Agregar en caso de salir error de Intelephense 
+muestra error innecesario en clase route como no definida*/
+
 
 /*
 |--------------------------------------------------------------------------
@@ -11,9 +15,14 @@
 |
 */
 
+//ruta principal
 Route::get('/','indexController@getIndex');
 
-
-//Route::get('/programadores','developers.programadores');
-
+//rutas desarrolladores
 Route::get('programadores', 'ProgamadoresController@getDevelopers');
+
+//rutas cliente 
+Route::get('clientes','clientesController@indexCliente');
+Route::get('infocliente','infoClienteController@infoCliente');
+Route::get('editarcliente','editarClienteController@editarCliente');
+
