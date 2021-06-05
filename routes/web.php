@@ -15,15 +15,14 @@ muestra error innecesario en clase route como no definida*/
 |
 */
 
+//ruta principal
 Route::get('/','indexController@getIndex');
 
-/*************************************************************/
-Route::get('clientes','clientesController@indexCliente');
-/* Creamos una Ruta en donde en el primer parametro contiene el nombre de
-la ruta que seria clientes, luego en el segundo parametro contiene un
-controlador llamado clientesController que va apuntar mediante arroba @ al 
-metodo llamado listadoCliente. (ambos parametros deben envolverse con comilla simples) */
+//rutas desarrolladores
+Route::get('programadores', 'ProgamadoresController@getDevelopers');
 
- 
+//rutas cliente 
+Route::get('clientes','clientesController@indexCliente');
 Route::get('infocliente','infoClienteController@infoCliente');
 Route::get('editarcliente','editarClienteController@editarCliente');
+
