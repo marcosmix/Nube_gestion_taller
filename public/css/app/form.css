@@ -1,0 +1,40 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formu {
+
+    width: 600px;
+    background: #3e7573;
+    padding: 30px;
+    margin: auto;
+    
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.controls{
+
+    width: 100%;
+    background: #000000;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: medium;
+}
+
+.boton {
+
+    width: 100%;
+    background-color: rgb(98, 158, 98);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+}

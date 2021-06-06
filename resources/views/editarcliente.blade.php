@@ -2,36 +2,33 @@
 @section('content')
 
 
-<h1 class="titular">
-    Clientes
-</h1>
-<ul>
-    <ol>
-        <li>
-            NOMBRE: MARCOS
-        </li>
-        <hr>
-        <li>
-            APELLIDO: CABALLERO
-        </li>
-        <hr>
-        <li>
-            DIRECCION: FLORESTA 21 SUR - SAN JUSTO
-        </li>
-        <hr>
-        <li>
-            RAZON SOCIAL: NEMO
-        </li>
-        <hr>
-        <li>
-            NUMERO: 264555555
-        </li>
-        <hr>
-    </ol>
-</ul>
+<h2 class="titular">
+    Editar
+</h2>
+
+<section class="formu table">
 
 
-<table class="tablee">
+    <input type="text" class="controls" name="nombre" placeholder="Nombre">
+
+    <input type="apellido" class="controls" name="apellido" placeholder="Apellido">
+
+    <input type="text" class="controls" name="nombre" placeholder="Direccion">
+
+    <input type="text" class="controls" name="nombre" placeholder="Razon Social">
+
+    <input type="text" class="controls" name="email" placeholder="Email">
+
+
+    <!--
+   <button class="boton">Guardar Cambios
+   <input type="submit"  value="" placeholder="Guardar Cambios">
+  </button> -->
+</section>
+
+
+
+<table>
 
     <thead>
         <tr>
@@ -141,27 +138,53 @@
 
     </tr>
 
-</table>
 
-<div class="botons">
+
     <tr>
-        
-            <td>
-                <a href="/infocliente">
-                    <button class="cg">GUARDAR</button>
-                </a>
-            </td>
-            <td>
+        <td>
 
-                <a href="/infocliente">
-                    <button class="cc">CANCELAR</button>
-                </a>
-            </td>
+            <button class="cg">GUARDAR</button>
 
-        
+
+
+            <button class="cc">CANCELAR</button>
+        </td>
     </tr>
 
-</div>
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

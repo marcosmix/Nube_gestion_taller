@@ -1,8 +1,9 @@
+/*tarea pendiente: cambiar propiedades*/
 table{
     
     margin-left: 70px;
     border-collapse: collapse;
-    
+    margin-top: 50px;
     width: 90%;
 }
 
@@ -14,6 +15,8 @@ thead{
 }
 
 
+
+/***********TAREA PENDIENTE DESDE ACA: migrar a otra carpeta y cambiar propiedades : maico********************/
 
 
 button {
@@ -50,15 +53,26 @@ button {
 }
 
 .botons{
-    
-   margin: 5px;
+    margin-top: 60px;
+    margin-left: 40%; 
+   
 }
 
 .tablee{
 
     margin-left: 1px;
+    margin-top: 80px;
 }
 
 .text{
     align-items: left;
 }
+
+.add{
+    margin-top: 60px;
+    margin-left: 40%;
+    color: black;
+}
+
+
+

@@ -162,6 +162,9 @@
     </table>
 
 
+    <button class="add ce">AGREGAR</button>
+
+
 </div>
 
 

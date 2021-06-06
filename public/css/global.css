@@ -1,4 +1,5 @@
 @import url('app/estructura_principal.css');
 @import url('app/navbar.css');
 @import url('app/content.css');
-@import url('app/tabla.css'); /*Importo estilo tabla* Maico/
+@import url('app/tabla.css'); /*Importo estilo tabla* Maico*/
+@import url('app/form.css'); /*Importo estilo form* Maico*/
